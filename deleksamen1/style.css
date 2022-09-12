@@ -93,6 +93,12 @@
       padding: 7rem;
   }
 
+    article a { /* Skifta farge på lenkene*/
+        color: rgb(15, 14, 14);
+    }
+
+
+
   
 
  
