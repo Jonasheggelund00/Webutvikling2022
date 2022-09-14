@@ -1,23 +1,23 @@
 <!--21 feil ble funnet i validatoren-->
-<!DOCTYPE html> <!--satt på DOCTYPE HTML for å define at det er et htlm dokument-->
-<html lang="nb"> <!--Satt på lang= "nb" for å definere språk, feil 2-->
+<!DOCTYPE html> <!--Feil 1, satt på DOCTYPE HTML for å define at det er et htlm dokument-->
+<html lang="nb"> <!--Feil 2, Satt på lang= "nb" for å definere språk, feil 2-->
         <head>
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <link rel="stylesheet" type="text/css" href="style.css"> <!--Satt inn gåsetegn bak style.css-->
+            <link rel="stylesheet" type="text/css" href="style.css"> <!--Feil 3, Satt inn gåsetegn bak style.css-->
             <title>Web eksamen del 1</title>
         </head>
-        <body> <!--Body taggen stod før head, derfor flytta jeg den etter og det fiksa mange errors-->
+        <body> <!--Feil 4, body taggen stod før head, derfor flytta jeg den etter og det fiksa mange errors-->
         <nav>
             
-            <h1>Logo</h1> 
-                <ul> <!--Satt på ul tag for å -->
+            <h2>Logo</h2> <!--Feil 5, Validatoren likte ikke at h1 taggen ble brukt, så bytta til h2-->
+                <ul> <!--Feil 6, Satt på ul tag fordi det er en uordnet liste -->
 
                 <li> <a href="#">Boatswain schooner</a></li>
                 <li> <a href="#">Account lookout</a></li>
                 <li> <a href="#">Sail ho shrouds</a></li>
           
             
-            </ul> <!--Satt på ul tag for å -->
+            </ul> <!--Feil 6, Satt på ul tag fordi det er en uordnet liste -->
         </nav>
         <header>
             <h1>Yar Pirate Ipsum</h1>
@@ -25,27 +25,24 @@
             <a class="button">Les mer</a> 
         </header>
         <div id="main">
-            <main> <!--satt på main taggen fordi den tar for seg main innholdet i styles.css fila...-->
+            <main> <!--Feil 7, satt på <main> taggen fordi det er i denne gridden innholdet er plassert.-->
             <article>
-                <h2>Prow scuttle</h2> <!--endra fra h1 til h2 fordi dette ikke er en h1 overskrift-->
+                <h2>Prow scuttle</h2> <!--Feil 8, endra fra h1 til h2 fordi dette ikke er en h1 overskrift-->
                 <p>Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors.</p>
                 <a href="#">Les mer</a> 
-                <!-- Satt denne i css fila for å skifte farge på "les mer linkene til svart". Fopr presentasjonen sin skyld.
-                    article a { 
-                    color: rgb(15, 14, 14);
-                }-->
-            </article> <!--Sette på </article> fordi <article> ikke hadde en ende-->
+                
+            </article> <!--Feil 9 ,Satt på </article> fordi <article> ikke hadde en slutt tagg-->
             <article>
-                <h2>Jack Tar transom</h2> <!--endra fra h1 til h2 fordi dette ikke er en h1 overskrift-->
+                <h2>Jack Tar transom</h2> <!--Feil 10, endra fra h1 til h2 fordi dette ikke er en h1 overskrift-->
                 <p>Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors.</p>
                 <a href="#">Les mer</a>
             </article>
             <article>
-                <h2>Trysail Sail</h2> <!--endra fra h1 til h2 fordi dette ikke er en h1 overskrift-->
+                <h2>Trysail Sail</h2> <!--Feil 10, endra fra h1 til h2 fordi dette ikke er en h1 overskrift-->
                 <p>Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors.</p>
                 <a href="#">Les mer</a>
             </article>
-        </main> <!--satt på main taggen fordi den tar for seg main innholdet i styles.css fila...-->
+        </main> <!--Feil 7, satt på <main> taggen fordi det er i denne gridden innholdet er plassert.-->
         </div>
         <footer class="main">
             <span>Twitter</span>
