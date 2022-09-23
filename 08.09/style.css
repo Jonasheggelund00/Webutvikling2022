@@ -9,8 +9,8 @@ body{
     font-family: 'Jost', sans-serif;
 }
 
-header nav h3 {
-    float: left;
+header h2 {
+    text-align: center;
   }
 
 header nav ul{
