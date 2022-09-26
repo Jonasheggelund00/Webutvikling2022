@@ -73,20 +73,26 @@ header nav ul li {
 
 header nav ul li a:hover {
 text-decoration: underline;
-  text-shadow: 0 0 5px #ffffff,
-              0 0 25px #ffffff,
-              0 0 50px #ffffff,
-              0 0 100px #ffffff;
+  text-shadow: 0 0 1px #ffffff,
+              0 0 5px #ffffff,
+              0 0 10px #ffffff,
+              0 0 15px #ffffff;
               
 }
 
-header h2{
+header h3 {
+    
     text-align: center;
     position: absolute;
     top: 1%;
     left: 50%;
     transform: translate(-50%, 50%);
-     color: white;
+    
+}
+
+header h3 a {
+    text-decoration: none;
+    color: white;
 }
 
 
@@ -109,22 +115,12 @@ main article {
      border-radius: 25px;
      padding: 6px 20px;
      overflow: hidden;
-     
-     
-     
-     
 
-  
-    /*-webkit-mask-image: url(bilder/wordpressblo.png); 
-    mask-image: url(bilder/wordpressblo.png);
-    -webkit-mask-repeat: no-repeat;
-    mask-repeat: no-repeat;*/
- 
     
 }
 
 main article:hover {
-    transform: scale(1.05);
+    transform: scale(1.005);
     
 }
 
@@ -205,12 +201,17 @@ footer div a {
 }
 
 /*Logo*/
-footer h2 {
+footer h3 {
     grid-area: logo;
     display: inline-block;
     text-align: left;
-    color: white;
     
+    
+}
+
+footer h3 a {
+    color: white;
+    text-decoration: none;
 }
 
 footer span {
@@ -224,13 +225,3 @@ footer span a {
     margin: 0 0.5rem;
     color: white;    
 }
-
-/*
-1. får ikke sentrert knappene
-2. får ikke flytta på bildene inni masken
-får ikke sentrert linkene i footeren
-3. sette på farge og blende fargen i bildene
-
-
-
-*/
