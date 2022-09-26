@@ -9,8 +9,39 @@ body{
     font-family: 'Jost', sans-serif;
 }
 
+<<<<<<< Updated upstream
 header h2 {
     text-align: center;
+=======
+#front-page-container {
+    display: grid;
+    grid-template-areas: "header"
+                         "main"
+                         "aside" 
+                         "footer";
+    grid-template-columns: 1fr;
+}
+
+header{
+    grid-area: header;
+}
+
+main{
+    grid-area: main;    
+}
+
+aside {
+    grid-area: aside;
+}
+
+footer{
+    grid-area: footer;
+}
+
+
+header nav h3 {
+    float: left;
+>>>>>>> Stashed changes
   }
 
 header nav ul{
@@ -38,9 +69,9 @@ nav{
     padding: 2rem;
 }
 
-#front-page-container{
+/*#front-page-container{
     margin: 2rem auto;
-    /*la til padding*/
+    /*la til padding
     padding: 0 1rem;
     max-width: 1200px;
     width: 100%;
@@ -101,6 +132,10 @@ footer{
     background-color: rgb(80, 80, 80);
     color: #fff;
     padding: 3rem 2rem;
+}
+
+@media only screen and (min-width: ){
+    
 }
 
 
