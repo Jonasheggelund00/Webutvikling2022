@@ -86,7 +86,7 @@ main{
 /*laget en klasse som brukes på arikklene på innholdssidene*/
 .article-content{
     width: 80%;
-    float: left;
+    
 }
 
 main article{
